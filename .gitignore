@@ -1,0 +1,36 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings (VS Code, PyCharm) ---
+.vscode/
+.idea/
+
+# --- PROJECT SPECIFIC (CRITICAL) ---
+
+# 1. Ignore your raw photos (Keep your privacy)
+wardrobe_dump/
+
+# 2. Ignore the sorted wardrobe folders (Too large for Git)
+my_wardrobe/
+
+# 3. Ignore API Keys and Secrets
+# If you eventually move your key to a separate file, ignore it here
+.env
+api_key.txt
+secrets.json
+
+# ⚠️ WARNING: 
+# Since your API Key is currently hardcoded inside 'main_ui_final.py',
+# DO NOT commit that file to a public repository unless you remove the key first!
+# If you want to commit the code, replace the key in the file with "YOUR_KEY_HERE"
