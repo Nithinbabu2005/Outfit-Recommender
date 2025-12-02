@@ -12,7 +12,7 @@ import google.generativeai as genai
 
 # --- CONFIGURATION ---
 # ⚠️ Your API Key
-API_KEY = "AIzaSyDON4wVpvGCvjmHxW0SBxKQswZrfEVlrfs"
+API_KEY = "API_Key"
 genai.configure(api_key=API_KEY)
 
 # Folders
@@ -411,4 +411,5 @@ if __name__ == "__main__":
     else:
         root = tk.Tk()
         app = SmartWardrobeApp(root)
+
         root.mainloop()
