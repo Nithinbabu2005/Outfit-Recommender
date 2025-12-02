@@ -1,0 +1,11 @@
+Project Title: AI Smart Wardrobe Manager & Outfit Recommender
+
+Overview: This project is an intelligent desktop application designed to digitize and manage a personal wardrobe using Artificial Intelligence. It solves the common problem of "having nothing to wear" by automating the organization of clothes and acting as a personal virtual stylist.
+
+Core Functions:
+
+Automated Organization (Computer Vision): The user simply dumps raw photos of their clothes into a folder. The AI scans each image, identifies the type of clothing (e.g., Formal Shirt vs. T-Shirt), and physically moves the file into a structured directory system.
+
+Context-Aware Styling (Generative AI): The system fetches real-time weather data for the user's location and accepts specific occasions (e.g., "Job Interview", "Date Night"). It then selects a visually matching outfit (Top + Bottom + Shoes) based on color theory and style rules.
+
+Smart History: The application remembers the last 10 suggested outfits to ensure it provides fresh, unique combinations every time, avoiding repetition
