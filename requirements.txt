@@ -1,0 +1,35 @@
+System Requirements:
+
+OS: Windows, macOS, or Linux.
+
+Python: Version 3.9 or higher.
+
+Internet Connection: Required for Google Gemini API and Weather data.
+
+Python Libraries: You can install these using the command: pip install google-generativeai pillow requests
+
+google-generativeai: For vision processing and styling logic.
+
+Pillow: For image processing and display in the UI.
+
+requests: For fetching live weather data.
+
+tkinter: (Built-in with Python) For the Graphical User Interface.
+
+REQUIRED FOLDER STRUCTURE: The script automatically generates these folders, but the logic depends on this specific hierarchy.
+
+Project_Root_Folder/
+│
+├── main_ui.py               # The main Python script
+├── README.md                # Project documentation
+│
+├── wardrobe_dump/           # [INPUT] Put your raw, unsorted photos here
+│   ├── IMG_2024.jpg
+│   └── whatsapp_img.jpg
+│
+└── my_wardrobe/             # [OUTPUT] AI automatically sorts files here
+    ├── Shirt/               # Formal and Casual Shirts
+    ├── Tshirt/              # Polo and Round neck T-shirts
+    ├── Pant/                # Jeans, Trousers, Joggers
+    ├── Shorts/              # Shorts and 3/4th pants
+    └── Shoes/               # Sneakers, Formal shoes, Sandals
